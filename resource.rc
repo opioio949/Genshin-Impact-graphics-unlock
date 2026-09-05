@@ -1,0 +1,4 @@
+#include <windows.h>
+
+// 将编译好的 DLL 作为自定义二进制资源 (RCDATA) 嵌入程序，资源 ID 为 101
+101 RCDATA "dxgi_hook.dll"
